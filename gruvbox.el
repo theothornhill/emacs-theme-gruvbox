@@ -189,6 +189,8 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (ag-match-face                             (:foreground gruvbox-bright_red))
 
      ;; Diffs
+     (diff-header                               (:background gruvbox-dark1))
+     (diff-file-header                           (:background gruvbox-dark2))
      (diff-changed                              (:background nil :foreground gruvbox-light1))
      (diff-added                                (:background nil :foreground gruvbox-bright_green))
      (diff-removed                              (:background nil :foreground gruvbox-bright_red))
